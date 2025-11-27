@@ -1,0 +1,186 @@
+title: Software Architect
+years_of_experience: 14.5
+jobs:
+  # - position:
+  #   company:
+  #     name:
+  #     url:
+  #     logo:
+  #       image:
+  #       library:
+  #   start_date:
+  #   end_date:
+  #   job_description: |
+  - position: Go Developer - Architect
+    company:
+      name: Globant
+      url: https://globant.com/
+      logo:
+        image: globant
+        library: brands
+    start_date: 2025-08-27
+    end_date:
+    job_description: |
+      Como desarrollador y arquitecto Go, participé en un proyecto para una plataforma de datos e investigación en salud.
+      - Diseñé e implementé microservicios escalables usando Go.
+      - Optimizé las consultas al repositorio y mejoré el rendimiento en diferentes componentes.
+      - Mentoricé a desarrolladores junior y realicé revisiones de código.
+      - Colaboré con equipos multidisciplinarios para entregar software de alta calidad.
+      - Implementé componentes React
+  - position: Senior software Engineer - Golang
+    company:
+      name: Wizeline
+      url: https://www.wizeline.com/
+      logo:
+        image: wizeline
+        library: brands
+    start_date: 2025-02-10
+    end_date: 2025-08-22
+    job_description: |
+      Como ingeniero de software sénior especializado en Go, participé en un proyecto para una plataforma que ofrece contenido multimedia a usuarios finales.
+      - Desarrollé y mantuve API de alto rendimiento (RESTful y gRPC) utilizando Go.
+      - Diseñé e implementé microservicios escalables.
+      - Optimizé las consultas a la base de datos y mejoré el rendimiento general del sistema.
+      - Colaboré con equipos multidisciplinarios para entregar software de alta calidad.
+      - Realicé revisiones de código y brindé mentoría.
+      - Brindé soporte al proceso de autenticación y autorización para usuarios de una plataforma multimedia en servicios implementados en Go.
+      - Actualicé la configuración de los socios en las bases de datos de la plataforma multimedia.
+  - position: Independent Golang Engineer Consultant
+    company:
+      name: Freelance
+      url: https://odinnordico.github.io/
+      logo:
+        image: dhk
+        library: brands
+    start_date: 2024-06-02
+    end_date: 2025-02-07
+    job_description: |
+      - Diseño e implementación de aplicaciones Go robustas para controladores de Kubernetes, herramientas CLI y APIs de microservicios.
+      - Codificación limpia y eficiente de Go, integración con bibliotecas relevantes, APIs (Kubernetes, servicios externos) e interfaces del sistema.
+      - Implementación de estrategias de pruebas (unitarias y de integración) y participación en revisiones de código para garantizar la fiabilidad y la corrección en todos los tipos de proyectos.
+      - Diseño e implementación de artefactos de despliegue y configuraciones para aplicaciones contenerizadas (controladores, microservicios) y empaquetado de CLIs.
+      - Identificación y resolución de problemas de rendimiento y cuellos de botella de recursos específicos de cada tipo de aplicación.
+      - Diagnóstico y resolución de problemas técnicos en entornos de desarrollo y producción.
+      - Documentación clara de diseños, código y uso, y comunicación efectiva con equipos y stakeholders.
+  - position: Senior Member of Technical Staff
+    company:
+      name: VMWare By Broadcom
+      url: https://www.vmware.com/
+      logo:
+        image: tanzu
+        library: brands
+    start_date: 2021-08-10
+    end_date: 2024-06-01
+    job_description: |
+      Como miembro sénior del equipo técnico especializado en Go, he contribuido a un proyecto para una plataforma que proporciona contenido multimedia a los usuarios finales.
+      - Desarrollé y mantuve la interfaz de línea de comandos (CLI) y algunos de sus plugins para la plataforma VMware Tanzu.
+      - Diseñé, construí y mantuve diversos controladores de Kubernetes.
+      - Desarrollé y mantuve pipelines de CI/CD automatizados en GitHub y pipelines internos de CI/CD en Concourse, utilizando Docker, GCP y GitOps.
+      - Desarrollé y mantuve varias herramientas internas para facilitar el desarrollo de los productos.
+      - Publiqué y generé documentación para los diferentes productos del equipo.
+      - Mentoricé a desarrolladores júnior y realicé revisiones de código para garantizar el cumplimiento de las mejores prácticas y mantener altos estándares de calidad.
+  - position: Backend JVM Engineer
+    company:
+      name: Addi
+      url: https://co.addi.com/
+      logo:
+        image: addi
+        library: brands
+    start_date: 2021-04-12
+    end_date: 2021-08-06
+    job_description: |
+      - Es responsable de los componentes de la plataforma que diseña, implementa, prueba, despliega, monitoriza y corrige en producción.
+      - Coordina servicios utilizando colas asíncronas y programación reactiva con Java y Quarkus.
+      - Mantiene y desarrolla las habilidades técnicas necesarias para cumplir con sus responsabilidades.
+      - Es un experto a nivel de equipo en un dominio específico o en componentes concretos de la plataforma.
+      - Diseña, propone e implementa nuevas funcionalidades o corrige las existentes en la plataforma.
+      - Desarrolla y mantiene el backend de pagos digitales.
+      - Contribuye a la definición de las estrategias en cada ciclo.
+  - position: Senior Software Engineer
+    company:
+      name: Blanc Labs
+      url: https://blanclabs.com/
+      logo:
+        image: blanclabs
+        library: brands
+    start_date: 2019-03-11
+    end_date: 2021-04-09
+    job_description: |
+      - Desarrollo en la nube con PCF (Pivotal Cloud Foundry) y tecnología de microservicios Spring.
+      - Diseño de propuestas para plataformas de préstamos comerciales, conforme a los procedimientos y estándares arquitectónicos establecidos.
+      - Desarrollo e implementación de un producto de software para el sector bancario. Participación en las diferentes fases de su implementación y desarrollo.
+      - Definición de la arquitectura, las mejores prácticas y las directrices de desarrollo para los diferentes microservicios utilizados en este proyecto.
+      - Desarrollo de interfaces de usuario con Angular 8+.
+      - Coordinación con el negocio para alinear las tareas con los requisitos y el desarrollo actual.
+  - position: Senior Java Software Engineer
+    company:
+      name: Globant
+      url: https://globant.com/
+      logo:
+        image: globant
+        library: brands
+    start_date: 2015-09-30
+    end_date: 2019-03-08
+    job_description: |
+      - Desarrollar componentes de integración con sólidos patrones de diseño.
+      - Liderar proyectos internos para subcomponentes desarrollados con Spring Integration.
+      - Desarrollar microservicios con Java y Spring/Boot para el mantenimiento de aeronaves.
+      - Desarrollar diversos componentes para interactuar con servicios de mensajería asíncrona.
+      - Diseñar y orquestar diferentes componentes.
+      - Coordinar con otros equipos la arquitectura y las propuestas de soluciones para alinearlas donde existan componentes comunes.
+      - Crear microservicios, procesos por lotes y funciones Lambda para el cliente, integrados con servicios, artefactos y configuración de proyectos de AWS; mantener proyectos heredados; integrar servicios con bibliotecas y servicios de proyectos internos; brindar soporte a los compañeros en la resolución de problemas y guiarlos en la estructura de los proyectos; documentar el proceso técnico y la implementación.
+      - BDD y TDD.
+      - Mentorizar a compañeros con menos experiencia.
+  - position: Senior Product Engineer
+    company:
+      name: DragonTech Latinoamerica
+      url: https://www.linkedin.com/in/dragon-tech-a35aa780/
+      logo:
+        image: dragontech
+        library: brands
+    start_date: 2013-04-01
+    end_date: 2015-09-27
+    job_description: |
+      - Mejorar y actualizar las funcionalidades actuales de la plataforma para centros de contacto.
+      - Mantener actualizada la integración de Asterisk y Java con las últimas versiones estables.
+      - Agregar funcionalidades a la plataforma interna existente para centros de contacto.
+      - Desarrollar diferentes flujos de IVR para centros de contacto con una solución interna basada en jBPM.
+      - Brindar soporte presencial.
+      - Mantener actualizada la base de datos PostgreSQL según los requisitos.
+      - Migrar la interfaz de usuario de JSP a jQuery.
+      - Diseñar e implementar nuevos módulos para la plataforma interna.
+      - Investigación y desarrollo de nuevos productos para centros de contacto.
+      - Desarrollo de un servidor de licencias para un modelo de suscripción.
+      - Liderar proyectos internos.
+  - position: Ingeniero Junior
+    company:
+      name: ITAC CO
+      url: https://itac.co/
+      logo:
+        image: itac
+        library: brands
+    start_date: 2012-11-06
+    end_date: 2013-03-30
+    job_description: |
+      - Reunirme con los analistas de negocio y los responsables de control de calidad para que el desarrollo se ajuste a los requisitos.
+      - Desarrollo de interfaces de usuario con Prime Faces para instituciones financieras.
+      - Desarrollo de módulos de integración backend entre la plataforma y los bancos utilizando Java con diferentes patrones de diseño.
+      - Desarrollo de scripts SQL para la plataforma (SQL Server) y las comunicaciones JPA correspondientes.
+      - Implementación de un flujo de trabajo completo para un proceso durante las primeras etapas del proyecto.
+  - position: Software Engineer
+    company:
+      name: SMS Americas
+      url: https://products.mobile-americas.com/
+      logo:
+        image: smsa
+        library: brands
+    start_date: 2011-02-15
+    end_date: 2012-11-02
+    job_description: |
+      - Mantener la infraestructura (servidores Apache, PostgreSQL y Linux) y los scripts base (PHP/Python) para cada mensaje entrante/saliente y el procesamiento por lotes para la generación masiva de mensajes.
+      - Actualizar y desarrollar nuevos flujos para SMS según las solicitudes de los proveedores (juegos, trivias, suscripciones).
+      - Monitorear y analizar el rendimiento de la plataforma y diseñar estrategias para mejorarlo.
+      - Iniciar la migración de toda la plataforma de PHP a Java para ejecutarla en el servidor JBoss.
+      - Diseñar e implementar una interfaz para comunicarse con un proveedor de televisión y mostrar mensajes interactivos.
+      - Diseñar e implementar una aplicación móvil para promociones de restaurantes.
+      - Soporte.

@@ -1,0 +1,14 @@
+- title: Systems Engineer
+  date: 2012-09-15
+  url: https://umb.edu.co/programa/ingenieria-de-software/
+  level: Bachelors
+  description: |
+    The Software Engineer from Manuela Beltrán University (UMB) is a well-rounded professional with the technical skills and abilities to meet the challenges of software development and management.
+    They are distinguished by their capacity to design, implement, and maintain high-quality software systems, following international methodologies and standards. The UMB curriculum includes key areas such as software development, data science, and IT infrastructure, ensuring that graduates are prepared to work in diverse and dynamic environments.
+    Furthermore, the UMB Software Engineer is committed to professional ethics and innovation, contributing to technological advancement and sustainable development in their field.
+  provider:
+    name: Manuela Beltrán University
+    url: https://umb.edu.co/
+    logo:
+      image: umb
+      library: brands
