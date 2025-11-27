@@ -1,0 +1,384 @@
+rows:
+  # Header
+  - height: 10
+    cols:
+      - width: 12
+        text:
+          content: "{{.Basic.Name}}"
+          size: 24
+          style: bold
+          align: center
+          color:
+            red: 0
+            green: 0
+            blue: 0
+
+  - height: 8
+    cols:
+      - width: 12
+        text:
+          content: "{{.Professional.Title}}"
+          size: 14
+          style: italic
+          align: center
+          color:
+            red: 100
+            green: 100
+            blue: 100
+
+  # Contact Info
+  - height: 5
+    cols:
+      - width: 12
+        text:
+          content: "{{.Basic.Location}} {{ if getEmail . }} | {{getEmail .}}{{end}} {{if getPhone .}} | {{getPhone .}}{{end}}"
+          size: 9
+          align: center
+
+  # Socials
+  {{if hasSocials .}}
+  {{range chunkSocials (getSocials .) 3}}
+  - height: 6
+    cols:
+      {{- range . }}
+      - width: 1
+        image:
+          path: "{{assetPath (printf "assets/media/%s/%s.png" .Logo.Library .Logo.Image)}}"
+          percent: 50
+          center: true
+      - width: 3
+        text:
+          content: "{{lastURLPart .URL}}"
+          size: 9
+          style: normal
+          align: left
+          hyperlink: "{{.URL}}"
+          color:
+            red: 100
+            green: 100
+            blue: 100
+      {{- end }}
+  {{end}}
+  {{end}}
+
+  - height: 4
+    cols: [] # Spacer before first section
+
+  # Summary
+  {{if .Basic.Summary}}
+  - height: 8
+    cols:
+      - width: 12
+        text:
+          content: "Summary"
+          size: 12
+          style: bold
+          align: left
+          color:
+            red: 105
+            green: 190
+            blue: 40
+  - height: 1
+    cols:
+      - width: 12
+        line:
+          thickness: 0.5
+          color:
+             red: 105
+             green: 190
+             blue: 40
+  - height: 2
+    cols: [] # Spacer
+  {{range splitLines .Basic.Summary}}
+  - height: {{calculateHeight . 9 12}}
+    cols:
+      - width: 12
+        text:
+          content: "{{escapeYAML .}}"
+          size: 9
+          align: left
+  {{end}}
+  - height: 2
+    cols: [] # Spacer
+  {{end}}
+
+  # Experience
+  {{if .Professional.Jobs}}
+  - height: 8
+    cols:
+      - width: 12
+        text:
+          content: "Experience"
+          size: 12
+          style: bold
+          align: left
+          color:
+            red: 105
+            green: 190
+            blue: 40
+  - height: 1
+    cols:
+      - width: 12
+        line:
+          thickness: 0.5
+          color:
+             red: 105
+             green: 190
+             blue: 40
+  - height: 2
+    cols: [] # Spacer
+
+  {{range .Professional.Jobs}}
+  # Row 1: Company | Date
+  - height: 5
+    cols:
+      - width: 8
+        text:
+          content: "{{.Company.Name}}"
+          hyperlink: "{{.Company.URL}}"
+          size: 10
+          style: bold
+      - width: 4
+        text:
+          content: "{{formatDate .StartDate "Jan 2006"}} - {{formatDate .EndDate "Jan 2006"}}"
+          size: 9
+          align: right
+          style: italic
+          color:
+             red: 128
+             green: 128
+             blue: 128
+  # Row 2: Position
+  - height: 5
+    cols:
+      - width: 12
+        text:
+          content: "{{.Position}}"
+          size: 9
+          style: italic
+          color:
+             red: 80
+             green: 80
+             blue: 80
+  # Row 3: Description
+  {{range splitLines .JobDescription}}
+  - height: {{calculateHeight . 9 12}}
+    cols:
+      - width: 12
+        text:
+          content: "{{escapeYAML .}}"
+          size: 9
+          align: left
+  {{end}}
+  - height: 3
+    cols: [] # Spacer
+  {{end}}
+  - height: 4
+    cols: [] # Section Spacer
+  {{end}}
+
+  # Education
+  {{if .Education}}
+  - height: 8
+    cols:
+      - width: 12
+        text:
+          content: "Education"
+          size: 12
+          style: bold
+          align: left
+          color:
+            red: 105
+            green: 190
+            blue: 40
+  - height: 1
+    cols:
+      - width: 12
+        line:
+          thickness: 0.5
+          color:
+             red: 105
+             green: 190
+             blue: 40
+  - height: 2
+    cols: [] # Spacer
+
+  {{range .Education}}
+  - height: 5
+    cols:
+      - width: 8
+        text:
+          content: "{{.Title}}"
+          size: 10
+          style: bold
+      - width: 4
+        text:
+          content: "{{formatDate .Date "2006"}}"
+          size: 9
+          align: right
+          style: italic
+          color:
+             red: 128
+             green: 128
+             blue: 128
+  - height: 5
+    cols:
+      - width: 12
+        text:
+          content: "{{.Provider.Name}}"
+          hyperlink: "{{.Provider.URL}}"
+          size: 9
+          style: italic
+          color:
+             red: 80
+             green: 80
+             blue: 80
+  - height: 2
+    cols: [] # Spacer
+  {{end}}
+  - height: 4
+    cols: [] # Section Spacer
+  {{end}}
+
+  # Certificates
+  {{if .Certificates}}
+  - height: 8
+    cols:
+      - width: 12
+        text:
+          content: "Certifications"
+          size: 12
+          style: bold
+          align: left
+          color:
+            red: 105
+            green: 190
+            blue: 40
+  - height: 1
+    cols:
+      - width: 12
+        line:
+          thickness: 0.5
+          color:
+             red: 105
+             green: 190
+             blue: 40
+  - height: 2
+    cols: [] # Spacer
+
+  {{range .Certificates}}
+  - height: 5
+    cols:
+      - width: 8
+        text:
+          content: "{{.Name}}"
+          hyperlink: "{{.CertificateURL}}"
+          size: 10
+          style: bold
+      - width: 4
+        text:
+          content: "{{formatDate .Date "Jan 2006"}}"
+          size: 9
+          align: right
+          style: italic
+          color:
+             red: 128
+             green: 128
+             blue: 128
+  - height: 5
+    cols:
+      - width: 12
+        text:
+          content: "{{.Provider.Name}}"
+          size: 9
+          style: italic
+          color:
+             red: 80
+             green: 80
+             blue: 80
+  - height: 2
+    cols: [] # Spacer
+  {{end}}
+  - height: 4
+    cols: [] # Section Spacer
+  {{end}}
+
+  # Skills
+  {{if .Skills}}
+  - height: 8
+    cols:
+      - width: 12
+        text:
+          content: "Skills"
+          size: 12
+          style: bold
+          align: left
+          color:
+            red: 105
+            green: 190
+            blue: 40
+  - height: 1
+    cols:
+      - width: 12
+        line:
+          thickness: 0.5
+          color:
+             red: 105
+             green: 190
+             blue: 40
+  - height: 2
+    cols: [] # Spacer
+
+  - height: 10
+    cols:
+      - width: 12
+        text:
+          content: "{{formatSkills .}}"
+          size: 9
+          align: left
+  {{end}}
+
+  - height: 10
+    cols:
+      - width: 12
+        text:
+          content: ""
+          size: 10
+          style: normal
+          align: center
+
+  - height: 8
+    cols:
+      - width: 12
+        text:
+          content: ""
+          size: 10
+          style: normal
+          align: center
+
+footer:
+  height: 10
+  cols:
+    - width: 4
+      text:
+        content: "{{formatCurrentDate "January - 2006"}}"
+        size: 8
+        align: left
+        color:
+          red: 128
+          green: 128
+          blue: 128
+    - width: 4
+      text:
+        content: "{{.Basic.Name}} · CURRICULUM VITAE"
+        size: 8
+        align: center
+        color:
+          red: 128
+          green: 128
+          blue: 128
+    - width: 4
+      text:
+        content: "" # Page number handled by Maroto
+        size: 8
+        align: right

@@ -1,10 +1,85 @@
-# IDEs
-.idea/
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
 
-# Hugo
-resources/
+# Go build artifacts
+odinnordico.github.io
+odinnordico.github.io.exe
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of `go cover`
+*.out
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+
+# Generated files and directories
 public/
-jsconfig.json
+dist/
+*.pdf
+*.tex
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+.ignoreme
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Configuration files that may contain secrets
+config.local.yml
+config.local.yaml
+*.local.yml
+*.local.yaml
+
+# Node modules (if any frontend assets are added)
 node_modules/
-go.sum
-.hugo_build.lock
+
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Backup files
+*.bak
+*.backup
+*.orig
+*.rej
