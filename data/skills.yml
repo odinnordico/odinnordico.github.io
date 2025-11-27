@@ -1,0 +1,210 @@
+- name: Golang
+  description: Go programming language
+  level: 10
+  logo:
+    image: golang
+    library: brands
+  tags:
+    - programming
+    - backend
+    - golang
+    - concurrency
+    - performance
+    - cloud-native
+    - systems-programming
+    - open-source
+    - networking
+    - microservices
+    - distributed-systems
+- name: Python
+  description: Python programming language
+  level: 8
+  logo:
+    image: python
+    library: brands
+  tags:
+    - programming
+    - backend
+    - python
+    - data-science
+    - machine-learning
+    - web-development
+    - scripting
+    - automation
+    - open-source
+- name: JavaScript
+  description: JavaScript programming language
+  level: 7
+  logo:
+    image: code
+    library: solid
+  tags:
+    - programming
+    - frontend
+    - backend
+    - javascript
+    - web-development
+    - nodejs
+    - react
+    - angular
+    - vue
+    - full-stack
+    - open-source
+- name: Java
+  description: Java programming language
+  level: 9
+  logo:
+    image: java
+    library: brands
+  tags:
+    - programming
+    - backend
+    - java
+    - enterprise
+    - android
+    - big-data
+    - open-source
+    - microservices
+    - distributed-systems
+    - cloud-native
+- name: SQL
+  description: SQL programming language
+  level: 6
+  logo:
+    image: database
+    library: solid
+  tags:
+    - database
+    - sql
+    - relational-database
+    - data-analysis
+    - data-warehousing
+    - big-data
+    - cloud-native
+- name: GCP
+  description: Google Cloud Platform
+  level: 7
+  logo:
+    image: google
+    library: brands
+  tags:
+    - cloud
+    - gcp
+    - cloud-computing
+    - infrastructure
+    - serverless
+    - big-data
+    - machine-learning
+    - devops
+    - networking
+    - security
+    - open-source
+- name: Kubernetes
+  description: Kubernetes container orchestration platform
+  level: 8
+  logo:
+    image: dharmachakra
+    library: solid
+  tags:
+    - containerization
+    - kubernetes
+    - orchestration
+    - cloud-native
+    - microservices
+    - devops
+    - networking
+    - security
+    - open-source
+- name: Docker
+  description: Docker containerization platform
+  level: 8
+  logo:
+    image: docker
+    library: brands
+  tags:
+    - containerization
+    - docker
+    - orchestration
+    - cloud-native
+    - microservices
+    - devops
+    - networking
+    - security
+    - open-source
+- name: AWS
+  description: Amazon Web Services
+  level: 7
+  logo:
+    image: aws
+    library: brands
+  tags:
+    - cloud
+    - aws
+    - cloud-computing
+    - infrastructure
+    - serverless
+    - big-data
+    - machine-learning
+    - devops
+    - networking
+    - security
+    - open-source
+- name: Git
+  description: Version control system
+  level: 9
+  logo:
+    image: git
+    library: brands
+  tags:
+    - version-control
+    - git
+    - collaboration
+    - devops
+    - open-source
+- name: Linux
+  description: Linux operating system
+  level: 8
+  logo:
+    image: linux
+    library: brands
+  tags:
+    - operating-system
+    - linux
+    - open-source
+    - server
+    - networking
+    - security
+    - devops
+    - cloud-native
+- name: AI
+  description: Artificial Intelligence
+  level: 7
+  logo:
+    image: robot
+    library: solid
+  tags:
+    - ai
+    - machine-learning
+    - data-science
+    - neural-networks
+    - natural-language-processing
+    - computer-vision
+    - robotics
+    - open-source
+- name: AI-agents
+  description: Artificial Intelligence
+  level: 8
+  logo:
+    image: robot
+    library: solid
+  tags:
+    - engineering
+    - coding
+    - ai
+    - machine-learning
+    - data-science
+    - neural-networks
+    - natural-language-processing
+    - computer-vision
+    - robotics
+    - open-source

@@ -1,0 +1,89 @@
+# - name:
+#   description:
+#   date:
+#   url:
+#   certificate_url:
+#   provider:
+#     name:
+#     url:
+#     logo:
+#       image:
+#       library:
+#   topics:
+#     -
+- name: Working with Design Patterns in Go (Golang)
+  description: Streamline your development by learning how common design patterns are implement in Go.
+  date: 2024-06-07
+  url: https://www.udemy.com/course/working-with-design-patterns-in-go-golang
+  certificate_url: https://www.udemy.com/certificate/UC-64d1cc47-7b2d-433c-8c38-47fec846eae7/
+  provider:
+    name: Udemy
+    url: https://www.udemy.com/
+    logo:
+      image: udemy
+      library: brands
+  topics:
+    - How to use common design patterns in Go
+    - Learn how to create loosely coupled software components
+    - Streamline the software development process by using well known patterns
+    - Build a real-world application using design patterns
+- name: "CKAD: Certified Kubernetes Application Developer"
+  description: |
+    Earners of this designation demonstrated the skills,
+    knowledge and competencies to perform the responsibilities of a Kubernetes Application Developer.
+    Earners are able to define application resources and use core primitives to build, monitor, and troubleshoot
+    scalable applications and tools in Kubernetes. The skills and knowledge demonstrated by earners include Core Concepts,
+    Configuration, Multi-Container Pods, Observability, Pod Design, Services & Networking, State Persistence.
+  date: 2022-10-14
+  url: https://www.credly.com/badges/9f1e662a-fe94-4de7-8865-892a6dd2ecf9
+  certificate_url: https://www.credly.com/badges/9f1e662a-fe94-4de7-8865-892a6dd2ecf9
+  provider:
+    name: The Linux Foundation
+    url: https://www.coursera.org/
+    logo:
+      image: ckad
+      library: brands
+  topics:
+    - Application Design and Build
+    - Application Deployment
+    - Application Observability and Maintenance
+    - Application Environment, Configuration and Security
+    - Services and Networking
+- name: The Complete Guide to Becoming a Software Architect
+  description: The most comprehensive guide that will make you a Software Architect, the most desired role in the software industry.
+  date: 2021-05-14
+  url: https://www.udemy.com/course/the-complete-guide-to-becoming-a-software-architect
+  certificate_url: https://www.udemy.com/certificate/UC-c60e8396-2a0c-4797-9319-ba0ed9f804dc/
+  provider:
+    name: Udemy
+    url: https://www.udemy.com/
+    logo:
+      image: udemy
+      library: brands
+  topics:
+    - Practical, proven techniques to becoming a great Software Architect.
+    - The exact role of the Software Architect
+    - Adopting Software Architect's mindset
+    - Architectural Patterns used in almost any software system
+    - Design Patterns to make the code more readable and easy to maintain
+    - Crucial Soft Skills that will make your work much easier
+    - Role and structure of the Architecture Document
+    - -Advanced architectural patterns for extreme cases
+- name: "Go: The Complete Developer`s Guide (Golang)"
+  description: Master the fundamentals and advanced features of the Go Programming Language (Golang)
+  date: 2020-09-08
+  url: https://www.udemy.com/course/go-the-complete-developers-guide
+  certificate_url: https://www.udemy.com/certificate/UC-2944e6c4-b674-4011-a303-9a3b58f5c529/
+  provider:
+    name: Udemy
+    url: https://www.udemy.com/
+    logo:
+      image: udemy
+      library: brands
+  topics:
+    - Build massively concurrent programs with Go Routines and Channels
+    - Learn the advanced features of Go
+    - Understand the differences between commonly used data structures
+    - Prove your knowledge with dozens of included quiz questions
+    - Apply Interfaces to dramatically simplify complex programs
+    - Use types to future-proof your code and reduce the difficulty of refactors

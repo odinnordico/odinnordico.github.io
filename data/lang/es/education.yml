@@ -1,0 +1,14 @@
+- title: Ingeniero de Sistemas
+  date: 2012-09-15
+  url: https://umb.edu.co/programa/ingenieria-de-software/
+  level: Pregrado Profesional
+  description: |
+    El Ingeniero de Software de la Universidad Manuela Beltrán (UMB) es un profesional formado integralmente con competencias técnicas y habilidades para enfrentar los desafíos del desarrollo y gestión de software.
+    Se distingue por su capacidad para diseñar, implementar y mantener sistemas de software de alta calidad, siguiendo metodologías y estándares internacionales. La formación en la UMB incluye áreas clave como el desarrollo de software, ciencia de datos e infraestructura de TI, asegurando que los graduados estén preparados para trabajar en entornos diversos y dinámicos.
+    Además, el Ingeniero de Software de la UMB está comprometido con la ética profesional y la innovación, contribuyendo al avance tecnológico y al desarrollo sostenible en su campo.
+  provider:
+    name: Universidad Manuela Beltran
+    url: https://umb.edu.co/
+    logo:
+      image: umb
+      library: brands

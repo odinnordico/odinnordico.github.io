@@ -1,0 +1,89 @@
+- name: Working with Design Patterns in Go (Golang)
+  description: Optimiza tu desarrollo aprendiendo cómo se implementan los patrones de diseño comunes en Go.
+  date: 2024-06-07
+  url: https://www.udemy.com/course/working-with-design-patterns-in-go-golang
+  certificate_url: https://www.udemy.com/certificate/UC-64d1cc47-7b2d-433c-8c38-47fec846eae7/
+  provider:
+    name: Udemy
+    url: https://www.udemy.com/
+    logo:
+      image: udemy
+      library: brands
+  topics:
+    - Cómo usar patrones de diseño comunes en Go
+    - Aprende a crear componentes de software débilmente acoplados
+    - Optimiza el proceso de desarrollo de software usando patrones conocidos
+    - Crea una aplicación real usando patrones de diseño
+- name: "CKAD: Certified Kubernetes Application Developer"
+  description: |
+    Quienes obtienen esta certificación demuestran las habilidades,
+    conocimientos y competencias necesarias para desempeñar las responsabilidades de un Desarrollador de Aplicaciones Kubernetes.
+    Son capaces de definir los recursos de las aplicaciones y utilizar los elementos básicos para crear, supervisar y solucionar problemas en
+    aplicaciones y herramientas escalables en Kubernetes. Las habilidades y conocimientos demostrados incluyen conceptos básicos,
+    configuración, pods multicontenedor, observabilidad, diseño de pods, servicios y redes, y persistencia de estado.
+  date: 2022-10-14
+  url: https://www.credly.com/badges/9f1e662a-fe94-4de7-8865-892a6dd2ecf9
+  certificate_url: https://www.credly.com/badges/9f1e662a-fe94-4de7-8865-892a6dd2ecf9
+  provider:
+    name: The Linux Foundation
+    url: https://www.coursera.org/
+    logo:
+      image: ckad
+      library: brands
+  topics:
+    - Diseño y desarrollo de aplicaciones
+    - Despliegue de aplicaciones
+    - Observabilidad y mantenimiento de aplicaciones
+    - Entorno, configuración y seguridad de las aplicaciones
+    - Servicios y redes
+- name: The Complete Guide to Becoming a Software Architect
+  description: La guía más completa que te convertirá en arquitecto de software, el puesto más deseado en la industria del software.
+  date: 2021-05-14
+  url: https://www.udemy.com/course/the-complete-guide-to-becoming-a-software-architect
+  certificate_url: https://www.udemy.com/certificate/UC-c60e8396-2a0c-4797-9319-ba0ed9f804dc/
+  provider:
+    name: Udemy
+    url: https://www.udemy.com/
+    logo:
+      image: udemy
+      library: brands
+  topics:
+    - Técnicas prácticas y comprobadas para convertirse en un excelente arquitecto de software.
+    - El rol exacto del arquitecto de software.
+    - Adoptar la mentalidad del arquitecto de software.
+    - Patrones arquitectónicos utilizados en casi cualquier sistema de software.
+    - Patrones de diseño para que el código sea más legible y fácil de mantener.
+    - Habilidades blandas cruciales que facilitarán enormemente tu trabajo.
+    - Rol y estructura del documento de arquitectura.
+    - Patrones arquitectónicos avanzados para casos extremos.
+- name: "Go: The Complete Developer`s Guide (Golang)"
+  description: Domina los fundamentos y las características avanzadas del lenguaje de programación Go (Golang).
+  date: 2020-09-08
+  url: https://www.udemy.com/course/go-the-complete-developers-guide
+  certificate_url: https://www.udemy.com/certificate/UC-2944e6c4-b674-4011-a303-9a3b58f5c529/
+  provider:
+    name: Udemy
+    url: https://www.udemy.com/
+    logo:
+      image: udemy
+      library: brands
+  topics:
+    - Crea programas altamente concurrentes con goroutines y canales.
+    - Aprende las características avanzadas de Go.
+    - Comprende las diferencias entre las estructuras de datos más comunes.
+    - Pon a prueba tus conocimientos con decenas de preguntas de prueba incluidas.
+    - Aplica interfaces para simplificar drásticamente programas complejos.
+    - Usa tipos para preparar tu código para el futuro y reducir la dificultad de las refactorizaciones.
+# - name:
+#   description:
+#   date:
+#   url:
+#   certificate_url:
+#   provider:
+#     name:
+#     url:
+#     logo:
+#       image:
+#       library:
+#   topics:
+#     -
