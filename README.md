@@ -4,7 +4,33 @@ A powerful, flexible resume generator that creates beautiful PDFs and static web
 
 [![Deploy to GitHub Pages](https://github.com/odinnordico/odinnordico.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/odinnordico/odinnordico.github.io/actions/workflows/deploy.yml)
 
+## Documentation
 
+📚 **[Visit the Wiki](https://github.com/odinnordico/odinnordico.github.io/wiki)** for comprehensive documentation, guides, and tutorials.
+
+The project wiki is maintained as a Git submodule and contains detailed information about:
+- Installation and setup
+- Configuration options
+- Data structure reference
+- Template customization
+- Multi-language support
+- Development guidelines
+- Troubleshooting
+
+### Using the Wiki Submodule
+
+When cloning this repository, include the wiki submodule to access documentation locally:
+
+```bash
+# Clone with all submodules
+git clone --recurse-submodules https://github.com/odinnordico/odinnordico.github.io.git
+
+# Or if already cloned, initialize submodules
+git submodule init
+git submodule update
+```
+
+**Contributing to the wiki?** See the [Contributing to the Wiki](https://github.com/odinnordico/odinnordico.github.io/wiki/Contributing-to-the-Wiki) guide.
 
 ## Features
 
@@ -468,13 +494,19 @@ Example:
 
 ## Contributing
 
-Contributions are welcome! Please:
+Contributions are welcome! We appreciate help with both code and documentation.
+
+### Code Contributions
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
+
+### Documentation Contributions
+
+Help improve our documentation by contributing to the [project wiki](https://github.com/odinnordico/odinnordico.github.io/wiki). See the [Contributing to the Wiki](https://github.com/odinnordico/odinnordico.github.io/wiki/Contributing-to-the-Wiki) guide for details on how to edit wiki pages.
 
 ## License
 
