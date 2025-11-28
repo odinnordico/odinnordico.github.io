@@ -4,7 +4,7 @@ A powerful, flexible resume generator that creates beautiful PDFs and static web
 
 ## Features
 
-- 📄 **PDF Generation** - Create professional PDF resumes using the [Maroto v2](https://github.com/johnfercher/maroto) library
+- 📄 **PDF Generation** - Create professional PDF resumes using the [gofpdf](https://github.com/grafana/gofpdf) library
 - 🌐 **Static Website** - Generate a responsive HTML website from the same data
 - 🌍 **Multi-language Support** - Easily maintain resumes in multiple languages
 - 🎨 **Themeable** - Customize the look and feel with templates
@@ -14,7 +14,7 @@ A powerful, flexible resume generator that creates beautiful PDFs and static web
 
 ## Technology Stack
 
-- **PDF Generation**: [Maroto v2](https://github.com/johnfercher/maroto) - Pure Go PDF library
+- **PDF Generation**: [gofpdf](https://github.com/grafana/gofpdf) - PDF document generator with high level support for text, drawing and images
 - **Template Engine**: [Scriggo](https://github.com/open2b/scriggo) - Fast Go template engine
 - **CLI Framework**: [Cobra](https://github.com/spf13/cobra) - Modern CLI framework
 - **Configuration**: [Viper](https://github.com/spf13/viper) - Configuration management
@@ -478,7 +478,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- [Maroto](https://github.com/johnfercher/maroto) - Excellent PDF generation library
+- [gofpdf](https://github.com/grafana/gofpdf) - PDF document generator with high level support for text, drawing and images
 - [Scriggo](https://github.com/open2b/scriggo) - Fast template engine
 - [Cobra](https://github.com/spf13/cobra) - Powerful CLI framework
 

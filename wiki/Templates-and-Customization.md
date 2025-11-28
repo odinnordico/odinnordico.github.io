@@ -18,7 +18,7 @@ To create a new theme:
 
 ## PDF Templates (`resume.yaml.tmpl`)
 
-The PDF generation is driven by a YAML template that defines the structure and layout. This template is processed by Go's `text/template` engine before being parsed by the PDF generator.
+The PDF generation is driven by a YAML template that defines the structure and layout. This template is processed by Go's `text/template` engine before being parsed by the PDF generator (powered by `gofpdf`).
 
 ### Structure
 

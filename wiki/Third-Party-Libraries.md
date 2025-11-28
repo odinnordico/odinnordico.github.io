@@ -2,13 +2,13 @@
 
 odinnordico.github.io relies on several powerful open-source libraries. Understanding these libraries can help you when customizing or extending odinnordico.github.io.
 
-## Maroto (PDF Generation)
+## gofpdf (PDF Generation)
 
-[Maroto](https://github.com/johnfercher/maroto) is a Maroto way to create PDFs. odinnordico.github.io uses Maroto v2.
+[gofpdf](https://github.com/grafana/gofpdf) is a library for generating PDF documents with high level support for text, drawing and images.
 
 *   **Usage**: It is used in `internal/generator/pdf.go` to render the resume PDF.
-*   **Customization**: The `resume.yaml.tmpl` file maps directly to Maroto's grid system (Rows and Cols).
-*   **Documentation**: [Maroto Docs](https://maroto.io/)
+*   **Customization**: The `resume.yaml.tmpl` file maps to a grid system implemented using gofpdf primitives.
+*   **Documentation**: [gofpdf Docs](https://pkg.go.dev/github.com/grafana/gofpdf)
 
 ## Scriggo (Template Engine)
 

@@ -4,7 +4,7 @@
 
 ## Key Features
 
-*   **📄 PDF Generation**: Create high-quality, professional PDF resumes using the [Maroto v2](https://github.com/johnfercher/maroto) library.
+*   **📄 PDF Generation**: Create high-quality, professional PDF resumes using the [gofpdf](https://github.com/grafana/gofpdf) library.
 *   **🌐 Static Website**: Generate a responsive, modern HTML website from the same data source.
 *   **🌍 Multi-language Support**: Easily maintain and generate resumes in multiple languages (e.g., English, Spanish, French) from a single codebase.
 *   **🎨 Themeable**: Fully customizable look and feel using templates for both PDF and Website.

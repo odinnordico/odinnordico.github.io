@@ -6,17 +6,8 @@ import (
 	"bytes"
 	"fmt"
 	"os"
-	"strings"
 	"text/template"
 
-	"github.com/johnfercher/maroto/v2/pkg/components/image"
-	"github.com/johnfercher/maroto/v2/pkg/components/line"
-	"github.com/johnfercher/maroto/v2/pkg/components/row"
-	"github.com/johnfercher/maroto/v2/pkg/components/text"
-	"github.com/johnfercher/maroto/v2/pkg/consts/align"
-	"github.com/johnfercher/maroto/v2/pkg/consts/fontstyle"
-	"github.com/johnfercher/maroto/v2/pkg/core"
-	"github.com/johnfercher/maroto/v2/pkg/props"
 	"gopkg.in/yaml.v3"
 )
 
@@ -99,117 +90,4 @@ func ParseTemplate(path string, data interface{}, funcs template.FuncMap) (*Temp
 	}
 
 	return &t, nil
-}
-
-// RenderTemplate renders the parsed template into the Maroto PDF instance.
-// It registers the footer (if present) and adds all rows to the document.
-func RenderTemplate(m core.Maroto, t *Template) {
-	if t.Footer != nil {
-		cols := buildColumns(t.Footer.Cols)
-		m.RegisterFooter(row.New(t.Footer.Height).Add(cols...))
-	}
-
-	for _, r := range t.Rows {
-		cols := buildColumns(r.Cols)
-		m.AddRow(r.Height, cols...)
-	}
-}
-
-// buildColumns converts template column definitions into Maroto columns.
-func buildColumns(cols []Col) []core.Col {
-	result := make([]core.Col, 0, len(cols))
-	for _, col := range cols {
-		switch {
-		case col.Text != nil:
-			result = append(result, createTextCol(col.Width, col.Text))
-		case col.Line != nil:
-			result = append(result, createLineCol(col.Width, col.Line))
-		case col.Image != nil:
-			result = append(result, createImageCol(col.Width, col.Image))
-		default:
-			// Empty column
-			result = append(result, text.NewCol(col.Width, ""))
-		}
-	}
-	return result
-}
-
-// createTextCol creates a text column with the specified properties.
-func createTextCol(width int, p *TextProp) core.Col {
-	prop := props.Text{
-		Size:  float64(p.Size),
-		Style: parseStyle(p.Style),
-		Align: parseAlign(p.Align),
-	}
-
-	if p.Color != nil {
-		prop.Color = &props.Color{
-			Red:   p.Color.Red,
-			Green: p.Color.Green,
-			Blue:  p.Color.Blue,
-		}
-	}
-
-	if p.Hyperlink != "" {
-		prop.Hyperlink = &p.Hyperlink
-	}
-
-	return text.NewCol(width, p.Content, prop)
-}
-
-// createLineCol creates a line column with the specified properties.
-func createLineCol(width int, p *LineProp) core.Col {
-	prop := props.Line{
-		Thickness: p.Thickness,
-	}
-
-	if p.Color != nil {
-		prop.Color = &props.Color{
-			Red:   p.Color.Red,
-			Green: p.Color.Green,
-			Blue:  p.Color.Blue,
-		}
-	}
-
-	return line.NewCol(width, prop)
-}
-
-// createImageCol creates an image column with the specified properties.
-func createImageCol(width int, p *ImageProp) core.Col {
-	rectProps := props.Rect{}
-	if p.Percent > 0 {
-		rectProps.Percent = p.Percent
-	}
-	if p.Center {
-		rectProps.Center = p.Center
-	}
-	return image.NewFromFileCol(width, p.Path, rectProps)
-}
-
-// parseStyle converts a string style name to a fontstyle constant.
-func parseStyle(style string) fontstyle.Type {
-	switch strings.ToLower(style) {
-	case "bold":
-		return fontstyle.Bold
-	case "italic":
-		return fontstyle.Italic
-	case "bolditalic":
-		return fontstyle.BoldItalic
-	default:
-		return fontstyle.Normal
-	}
-}
-
-// parseAlign converts a string alignment name to an align constant.
-func parseAlign(alignment string) align.Type {
-	switch strings.ToLower(alignment) {
-	case "center":
-		return align.Center
-	case "right":
-		return align.Right
-	case "justify":
-		return align.Justify
-	default:
-		return align.Left
-	}
 }
