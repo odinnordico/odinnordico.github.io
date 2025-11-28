@@ -2,6 +2,10 @@
 
 A powerful, flexible resume generator that creates beautiful PDFs and static websites from YAML data files. Built with Go and designed for developers who want version-controlled, multi-language resumes.
 
+[![Deploy to GitHub Pages](https://github.com/odinnordico/odinnordico.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/odinnordico/odinnordico.github.io/actions/workflows/deploy.yml)
+
+
+
 ## Features
 
 - 📄 **PDF Generation** - Create professional PDF resumes using the [gofpdf](https://github.com/grafana/gofpdf) library
@@ -484,6 +488,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-- 📧 Email: [your-email@example.com](mailto:your-email@example.com)
+- 📧 Email: [odin.nordico90@gmail.com](mailto:odin.nordico90@gmail.com)
 - 🐛 Issues: [GitHub Issues](https://github.com/odinnordico/odinnordico.github.io/issues)
 - 💬 Discussions: [GitHub Discussions](https://github.com/odinnordico/odinnordico.github.io/discussions)
